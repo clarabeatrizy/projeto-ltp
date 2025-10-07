@@ -1,13 +1,13 @@
 import { Destination } from "./Destination";
 
-// Classe que representa um Itinerário de viagem
+// Classe que representa um Itinerário de viagem (um roteiro completo)
 export class Itinerary {
   titulo: string;
   destino: Destination;
   dataInicio: string;
   dataFim: string;
   atividades: string[] = [];
-
+ // O construtor serve para criar o objeto com os dados da viagem
   constructor(titulo: string, destino: Destination, dataInicio: string, dataFim: string) {
     this.titulo = titulo;
     this.destino = destino;
