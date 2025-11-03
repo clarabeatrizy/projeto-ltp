@@ -7,6 +7,7 @@ export class Itinerary {
   dataInicio: string;
   dataFim: string;
   atividades: string[] = [];
+
  // O construtor serve para criar o objeto com os dados da viagem
   constructor(titulo: string, destino: Destination, dataInicio: string, dataFim: string) {
     this.titulo = titulo;
