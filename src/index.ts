@@ -1,5 +1,6 @@
 import { Destination } from "./Destination";
 import { Itinerary } from "./Itinerary";
+import "./error/teste";
 
 // Criar um destino
 const destino1 = new Destination("Paris", "França", 300);
